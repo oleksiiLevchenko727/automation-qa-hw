@@ -1,0 +1,24 @@
+{
+  "name": "automation-qa",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/oleksiiLevchenko727/automation-qa-hw#readme",
+  "bugs": {
+    "url": "https://github.com/oleksiiLevchenko727/automation-qa-hw/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksiiLevchenko727/automation-qa-hw.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nodeBasics/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.1"
+  },
+  "devDependencies": {}
+}
