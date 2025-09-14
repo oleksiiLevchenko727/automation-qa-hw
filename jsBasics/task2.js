@@ -1,9 +1,9 @@
 
 // Snake's name 
-let snakeName = "John";
+const snakeName = "John";
 
 // Ocelot's name
-let ocelotName = "Adamska";
+const ocelotName = "Adamska";
 
 // Greeting for both with concatenation
 console.log("Hello " + snakeName + " and " + ocelotName + "!");

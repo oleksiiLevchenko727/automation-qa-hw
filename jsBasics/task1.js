@@ -1,17 +1,17 @@
 // string
-let firstName = "Levchenko Oleksii";
+const firstName = "Levchenko Oleksii";
 
 // number
-let age = 23;
+const age = 23;
 
 // boolean
-let isAlive = true;
+const isAlive = true;
 
 // null
-let petName = null;
+const petName = null;
 
 // undefined
-let typePet = undefined;
+const typePet = undefined;
 
 console.log("Name is:", firstName);
 console.log("Age is:", age);
