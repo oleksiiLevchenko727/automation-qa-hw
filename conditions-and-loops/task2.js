@@ -1,4 +1,4 @@
-//task 2
+//Task-2
 
 const averageGrade = 100
 

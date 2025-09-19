@@ -1,4 +1,4 @@
-// Task 1
+// Task-1
 const averageGrade = 101
 
 if (averageGrade < 60) {
