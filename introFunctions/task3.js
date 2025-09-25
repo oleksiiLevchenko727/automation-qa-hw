@@ -1,4 +1,4 @@
-function checkOrder(availible, ordered){
+function checkOrderStatus(availible, ordered){
 
     if(ordered === 0){
         console.log("Your order is empty")

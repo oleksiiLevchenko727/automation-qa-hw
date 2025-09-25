@@ -1,10 +1,10 @@
 
 
-function squareIs(width, height){
+function getSquare(width, height){
 
    return(width * height)
 }
-console.log("Function declaration:", squareIs(5, 10))
+console.log("Function declaration:", getSquare(5, 10))
 
 
 
@@ -12,15 +12,15 @@ console.log("----------------------------")
 
 
 
-const rectangleSquareIs = function(width, height){
+const getRectangleSquare = function(width, height){
     return width * height
 }
-console.log("Function expression:", rectangleSquareIs(5, 10))
+console.log("Function expression:", getRectangleSquare(5, 10))
 
 
 console.log("----------------------------")
 
 
 
-const squareOfRectangleIs = (width, height) => width * height
-console.log("Arrow function expression:", squareOfRectangleIs(5, 10))
+const getSquareOfRectangle = (width, height) => width * height
+console.log("Arrow function expression:", getSquareOfRectangle(5, 10))
