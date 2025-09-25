@@ -16,4 +16,4 @@ function checkOrderStatus(availible, ordered){
 
 }
 
-checkOrder(24, 22)
+checkOrderStatus(24, 22)
