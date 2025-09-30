@@ -1,4 +1,4 @@
-//
+
 const validatedDivide = (numerator, denominator) => {
 
  try{
