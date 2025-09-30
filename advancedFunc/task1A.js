@@ -1,4 +1,4 @@
-
+///
 const handleNum  = (num, handleEven, handleOdd) => {
   if (num % 2 !== 0)
   {
