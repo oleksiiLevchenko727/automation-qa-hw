@@ -1,14 +1,14 @@
 
-const handleNumIs = (num, isEven, isOdd) => {
+const handleNum = (num, handleEven, handleOdd) => {
   if (num % 2 !== 0)
   {
-    isEven(num);
+    handleEven(num);
   } else {
-    isOdd(num);
+    handleOdd(num);
   }
 }
 
-handleNumIs(
+handleNum(
     11,
     () => console.log(`The number is odd`),
     () => console.log(`The number is even`)
