@@ -1,4 +1,4 @@
-//
+///
 const car1 = {
     brand: "BMW",
     model: "G60",

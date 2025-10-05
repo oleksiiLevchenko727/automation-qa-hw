@@ -1,4 +1,4 @@
-//
+///
 const book = {
     title: "Taras Bulba",
     author: "Nikolai Gogol",
