@@ -1,3 +1,4 @@
+//
 const person = {
     firstName: "Alex",
     lastName: "Mason",

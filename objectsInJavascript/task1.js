@@ -1,3 +1,4 @@
+//
 const student = {}
 
 student.firstName = "Chris";
@@ -6,3 +7,4 @@ student.age = 20;
 student.courses = ["Mathematics", "History", "Programming", "Geography", "Biology"];
 
 console.log(student)
+
