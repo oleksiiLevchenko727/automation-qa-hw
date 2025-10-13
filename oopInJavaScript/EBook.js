@@ -5,35 +5,17 @@ export class Ebook extends Book{
     this.fileFormat = fileFormat;
   }
 
-  get name() {
-    return this._name;
-  }
-  get author() {
-    return this._author;
-  }
-  get releaseYear() {
-    return this._releaseYear;
+  get fileFormat() {
+    return this._fileFormat;
   }
 
-  set name(newName){
-    if (typeof newName !== 'string' || newName.length === 0) {
+  set fileFormat(newfileFormat){
+    if (typeof newfileFormat !== 'string' || newfileFormat.length === 0) {
       return
     }
-    this._name = newName
+    this._fileFormat = newfileFormat
   }
-  set author(newAuthor){
-    if (typeof newAuthor !== 'string' || newAuthor.length === 0) {
-      return
-    }
-    this._author = newAuthor
-  }
-  set releaseYear(newReleaseYear){
-    this._releaseYear = newReleaseYear
-    if (typeof newReleaseYear !== 'number' || !Number.isInteger(newReleaseYear) || newReleaseYear < 0) {
-      return
-    }
-  }
-
+  
   printInfo() {
     console.log(`"${this.name}" by ${this.author}, released in ${this.releaseYear}. File format is: ${this.fileFormat}`);
   }
@@ -43,8 +25,6 @@ const books = [
  new Ebook("Happy Day", "John Lock", 1954, "pdf"),
  new Ebook("Shantaram", "Gregory David Roberts", 2003, "pdf")
 ]
-
-console.log('-----------------------------------------------------------------')
 
 books[0].name ="The Opportunity,"
 books[0].author ="Karl Lagerfeld,"
