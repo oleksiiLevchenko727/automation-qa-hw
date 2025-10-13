@@ -15,15 +15,24 @@ class Book {
   }
 
   set name(newName){
+     if (typeof newName !== 'string' || newName.length === 0) {
+      return
+    }
     this._name = newName
   }
   set author(newAuthor){
+     if (typeof newAuthor !== 'string' || newAuthor.length === 0) {
+      return
+    }
     this._author = newAuthor
   }
   set releaseYear(newReleaseYear){
+    if (typeof newReleaseYear !== 'number' || !Number.isInteger(newReleaseYear) || newReleaseYear< 0) {
+    return
+    }
     this._releaseYear = newReleaseYear
   }
-
+      
   printInfo() {
     console.log(`"${this.name}" by ${this.author}, released in ${this.releaseYear}.`);
   }
@@ -47,7 +56,6 @@ books[1].printInfo()
 books[2].printInfo()
 books[3].printInfo()
 
-console.log('------------------------------------------------')
 
 books[0].name = "Harry Potter,"
 books[0].author = "Will Smith,"
