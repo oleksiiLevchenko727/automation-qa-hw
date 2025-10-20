@@ -20,4 +20,4 @@ const divide = (numerator, denominator) => {
 };
 
 const resut = divide(80, 10)
-console.log("Resutl is:", resut)
+console.log("Resut is:", resut)
