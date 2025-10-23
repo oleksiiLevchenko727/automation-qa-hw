@@ -1,8 +1,8 @@
 
-const typeText = (text, delay) =>{
+const printWithDelay = (text, delay) =>{
     setTimeout(() => {
         console.log(text);
     }, delay);
 }
 
-typeText('Good morning', 500);
+printWithDelay('Good morning', 500);
