@@ -28,7 +28,7 @@ const person = [
     city: "Dnipro",
     street: "Shevchenko"
 }
-]
+];
 
 for (const {name, email, age, city, street } of person) {
     console.log(`
@@ -36,5 +36,5 @@ for (const {name, email, age, city, street } of person) {
         Email is: ${email}
         Age is: ${age} 
         City is: ${city}
-        Street is: ${street}`)
+        Street is: ${street}`);
 }
